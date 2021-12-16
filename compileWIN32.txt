@@ -1,4 +1,7 @@
 How to compile WIN32 app with g++/gcc
 
+This is for C application
 gcc code.c -o code.exe -mwindows
+
+This is for C++ applications
 g++ app.cpp -o app -Wl,-subsystem,windows -municode
